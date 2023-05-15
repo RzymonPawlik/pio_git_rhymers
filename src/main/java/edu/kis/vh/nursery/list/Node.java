@@ -9,7 +9,9 @@ public class Node {
     public Node(int i) {
         setValue(i);
     }
-
+    public void setValue(int value) {
+        this.value = value;
+    }
     public int getValue() {
         return value;
     }
